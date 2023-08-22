@@ -1,7 +1,7 @@
 {
   "name": "@freephoenix888/recursive-object-map",
   "keywords": [],
-  "version": "1.0.0",
+  "version": "0.0.1-dev.0",
   "description": "Map your object recursively",
   "repository": {
     "type": "git",
