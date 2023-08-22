@@ -1,0 +1,35 @@
+{
+  "name": "@freephoenix888/recursive-object-map",
+  "keywords": [],
+  "version": "1.0.0",
+  "description": "Map your object recursively",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreePhoenix888/recursive-object-map.git"
+  },
+  "type": "module",
+  "scripts": {
+    "library:build:clean": "fse remove dist && npm run library:build:dirty",
+    "library:build:dirty": "ts-node --esm ./automation/library/build.ts",
+    "library:build:generate-package-class": "generate-package-class",
+    "documentation:generate": "ts-node --esm ./automation/documentation/generate.ts",
+    "library:documentation:generate": "typedoc ./src/main.ts"
+  },
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "/dist",
+    "./deep.json"
+  ],
+  "dependencies": {
+    "@deep-foundation/core": "^0.0.2"
+  },
+  "devDependencies": {
+    "@atao60/fse-cli": "^0.1.7",
+    "@deep-foundation/npm-automation": "^17.2.6",
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^20.4.2",
+    "fs-extra": "^11.1.1",
+    "typescript": "5.0.4"
+  }
+}
