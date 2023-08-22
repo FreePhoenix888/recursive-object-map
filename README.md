@@ -3,3 +3,6 @@
 
 Map your object recursively
 
+[Documentation](https://freephoenix888.github.io/deep-map-object/)
+
+# Quick Start
