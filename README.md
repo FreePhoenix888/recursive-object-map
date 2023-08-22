@@ -6,3 +6,4 @@ Map your object recursively
 [Documentation](https://freephoenix888.github.io/deep-map-object/)
 
 # Quick Start
+- [Replace keys and string values](https://freephoenix888.github.io/deep-map-object/functions/recursiveObjectMap.html#md:replace-keys-and-string-values)
