@@ -4,6 +4,7 @@ export type RecusriveObjectMapCallback = (key: string, value: any) => { newKey: 
  * Maps an object recursively
  * 
  * @example
+ * #### Replace keys and string values
 ```ts
 const myObject = {
   foo: 'bar',
